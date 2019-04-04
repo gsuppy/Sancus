@@ -4,13 +4,18 @@ class Upload extends Component {
   render() {
     return (
       <div>
-        <p>
-        Add video URL
-        </p>
-
-        <p>
-        Add a data JSON File
-        </p>
+        <div>
+        1. Add video URL
+          <div>
+          <input/>
+          </div>
+        </div>
+        <div>
+        2. Add a data JSON File
+          <div>
+          <button>+ Add JSON file</button>
+          </div>
+        </div>
       </div>
     );
   }

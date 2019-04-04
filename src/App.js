@@ -25,7 +25,7 @@ class App extends Component {
              </li>
           </header>
 
-          {/*App Content Area*/}
+          {/*App Content Router Area*/}
           <div className="App-body">
             <Route path="/" exact component={Home} />
             <Route path="/Upload" component={Upload} />
